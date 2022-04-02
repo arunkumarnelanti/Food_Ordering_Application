@@ -1,0 +1,85 @@
+/*style for scroll bar starts here */
+
+ ::-webkit-scrollbar {
+    width: 4px;
+    background-color: black;
+}
+
+ ::-webkit-scrollbar-thumb {
+    border-radius: 800px;
+    background-color: crimson;
+}
+
+
+/*style for scroll bar ends here*/
+
+
+/*style for logo on top left and back button starts here*/
+
+#color {
+    font-family: 'Akronim';
+    color: crimson;
+    font-size: 40px;
+    padding: 4px;
+}
+
+#goback {
+    position: fixed;
+    font-size: 20px;
+    margin-left: 4px;
+    padding: 3px;
+    border: 1px solid black;
+    background-color: cyan;
+    border-radius: 8px;
+}
+
+#goback a {
+    color: black;
+    padding: 3px;
+}
+
+#goback a:hover {
+    text-decoration: none;
+}
+
+#partner {
+    font-family: 'Akaya Telivigala';
+    font-size: 40px;
+    padding: 4px;
+    color: crimson;
+}
+
+.open {
+    border: 2px solid black;
+    background-color: #111;
+    padding: 3px;
+    width: 20%;
+    text-align: center;
+}
+
+.open a {
+    color: white;
+}
+
+.open a:hover {
+    color: crimson;
+    text-decoration: none;
+}
+
+
+/*style for logo on top left and back button ends here */
+
+
+/*style for headings and content on top left ends here */
+
+#heading {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#date {
+    font-family: 'Charm';
+}
+
+
+/*style for headings and content on top left ends here */
